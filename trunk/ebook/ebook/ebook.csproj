@@ -35,16 +35,20 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="IKVM.GNU.Classpath, Version=0.20.0.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58">
+    <Reference Include="IKVM.GNU.Classpath, Version=0.30.0.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\Desktop\PDFBox-0.7.3\bin\IKVM.GNU.Classpath.dll</HintPath>
+      <HintPath>..\PDFBox-0.7.3\bin\IKVM.GNU.Classpath.dll</HintPath>
     </Reference>
-    <Reference Include="IKVM.Runtime, Version=0.20.0.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58">
+    <Reference Include="IKVM.Runtime, Version=0.30.0.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\Desktop\PDFBox-0.7.3\bin\IKVM.Runtime.dll</HintPath>
+      <HintPath>..\PDFBox-0.7.3\bin\IKVM.Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="PDFBox-0.7.3">
-      <HintPath>..\..\..\..\..\Desktop\PDFBox-0.7.3\bin\PDFBox-0.7.3.dll</HintPath>
+    <Reference Include="PDFBox-0.7.3, Version=0.0.0.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\PDFBox-0.7.3\bin\PDFBox-0.7.3.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpZipLib">
+      <HintPath>.\SharpZipLib.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
